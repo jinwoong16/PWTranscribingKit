@@ -9,15 +9,12 @@
 /* Begin PBXBuildFile section */
 		839CB4F52B204F5A002A4C67 /* Transcriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839CB4F42B204F5A002A4C67 /* Transcriber.swift */; };
 		839CB4F72B204FAC002A4C67 /* PWKeychainKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839CB4F62B204FAC002A4C67 /* PWKeychainKit.xcframework */; };
-		839CB4F82B204FAC002A4C67 /* PWKeychainKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 839CB4F62B204FAC002A4C67 /* PWKeychainKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		839CB4FA2B204FBF002A4C67 /* PWNetworkingKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839CB4F92B204FBF002A4C67 /* PWNetworkingKit.xcframework */; };
-		839CB4FB2B204FBF002A4C67 /* PWNetworkingKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 839CB4F92B204FBF002A4C67 /* PWNetworkingKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83AD3F652B20444B006CEC19 /* PWTranscribingKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 83AD3F642B20444B006CEC19 /* PWTranscribingKit.docc */; };
 		83AD3F6B2B20444B006CEC19 /* PWTranscribingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AD3F602B20444B006CEC19 /* PWTranscribingKit.framework */; };
 		83AD3F702B20444C006CEC19 /* PWTranscribingKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD3F6F2B20444C006CEC19 /* PWTranscribingKitTests.swift */; };
 		83AD3F712B20444C006CEC19 /* PWTranscribingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 83AD3F632B20444B006CEC19 /* PWTranscribingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83AD3F842B2045C9006CEC19 /* PWApiWorker.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AD3F832B2045C9006CEC19 /* PWApiWorker.xcframework */; };
-		83AD3F852B2045C9006CEC19 /* PWApiWorker.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83AD3F832B2045C9006CEC19 /* PWApiWorker.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,22 +26,6 @@
 			remoteInfo = PWTranscribingKit;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		83AD3F862B2045C9006CEC19 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				83AD3F852B2045C9006CEC19 /* PWApiWorker.xcframework in Embed Frameworks */,
-				839CB4F82B204FAC002A4C67 /* PWKeychainKit.xcframework in Embed Frameworks */,
-				839CB4FB2B204FBF002A4C67 /* PWNetworkingKit.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		839CB4F42B204F5A002A4C67 /* Transcriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transcriber.swift; sourceTree = "<group>"; };
@@ -157,7 +138,6 @@
 				83AD3F5C2B20444B006CEC19 /* Sources */,
 				83AD3F5D2B20444B006CEC19 /* Frameworks */,
 				83AD3F5E2B20444B006CEC19 /* Resources */,
-				83AD3F862B2045C9006CEC19 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
